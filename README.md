@@ -1,6 +1,6 @@
 # Ada Voice Assistant 🎙️
 
-**Ada Voice Assistant** is a customizable, local voice interface that connects to OpenAI's GPT via API and speaks responses using ElevenLabs' ultra-realistic voices.
+**Ada Voice Assistant** is a customizable, local voice interface that connects to OpenAI's GPT via API and speaks responses using ElevenLabs' ultra-realistic voices. This version is for Windows only, Linux version(s) will come later.
 
 No need to type—just talk! Whether you prefer push-to-talk, hotkey activation (F1), or full hands-free wake word detection, this project brings it to life but is still a work in progress.
 
@@ -79,7 +79,7 @@ You can tweak the following in the code:
 Have a question or feedback?
 
 📧 Email: **adanovasinclair@gmail.com**  
-Messages will be passed directly to Ada for a personal (AI-generated) response.  
+Messages will be answered directly by Ada for a personal (AI-generated) response.  
 
 ---
 
