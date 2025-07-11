@@ -180,7 +180,7 @@ else:
 function Show-NextSteps {
     Write-Host "`n🎉 Installation completed successfully!" -ForegroundColor Green
     Write-Host "`n🚀 Next steps:" -ForegroundColor Cyan
-    Write-Host "   1. Add your API keys to ada_clean.py:" -ForegroundColor White
+    Write-Host "   1. Add your API keys to voiceonly.py:" -ForegroundColor White
     Write-Host "      - OpenAI API Key (line 130)" -ForegroundColor White
     Write-Host "      - ElevenLabs API Key (line 134)" -ForegroundColor White
     Write-Host "   2. Activate the virtual environment:" -ForegroundColor White
@@ -191,7 +191,7 @@ function Show-NextSteps {
     Write-Host "`n💡 Tip: Adjust the timing sliders for optimal performance" -ForegroundColor Cyan
     Write-Host "`n📋 To run Ada in the future:" -ForegroundColor Cyan
     Write-Host "   .\venv\Scripts\Activate.ps1" -ForegroundColor Yellow
-    Write-Host "   python ada_clean.py" -ForegroundColor Yellow
+    Write-Host "   python voiceonly.py" -ForegroundColor Yellow
 }
 
 # Main installation process
