@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+RealtimeSTT>=0.1.17
+openai>=1.0.0
+requests>=2.28.0
+pygame>=2.5.0
+numpy>=1.24.0
+webrtcvad-wheels>=2.0.10
