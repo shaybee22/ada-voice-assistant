@@ -100,10 +100,10 @@ def install_requirements():
 def check_api_keys():
     """Remind user about API keys"""
     print("\n🔑 API Keys Setup:")
-    print("   You'll need to add your API keys to the ada_clean.py file:")
+    print("   You'll need to add your API keys to the voiceonly.py file:")
     print("   1. OpenAI API Key (for ChatGPT)")
     print("   2. ElevenLabs API Key (for voice synthesis)")
-    print("   \n   Edit lines 130 and 134 in ada_clean.py")
+    print("   \n   Edit lines 130 and 134 in voiceonly.py")
     print("   Replace 'YOUR_OPENAI_API_KEY' and 'YOUR_ELEVENLABS_API_KEY'")
 
 def test_imports():
@@ -173,8 +173,8 @@ def main():
     
     print("\n🎉 Installation completed successfully!")
     print("\n🚀 Next steps:")
-    print("   1. Add your API keys to ada_clean.py")
-    print("   2. Run: python ada_clean.py")
+    print("   1. Add your API keys to voiceonly.py")
+    print("   2. Run: python voiceonly.py")
     print("   3. Click 'Start Listening' and say 'Hey Ada'!")
     print("\n💡 Tip: Adjust the timing sliders for optimal performance")
 
