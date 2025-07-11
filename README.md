@@ -23,10 +23,40 @@ A voice-activated AI assistant using OpenAI and ElevenLabs APIs. Speak naturally
 - [OpenAI API Key](https://platform.openai.com/account/api-keys)
 - [ElevenLabs API Key](https://www.elevenlabs.io)
 
-### 📦 Installation
+🚀 Installation (Windows Only)
 
-1. Clone the repo:
+    Create a folder anywhere you like (e.g., C:\AdaAssistant)
 
-   ```bash
-   git clone https://github.com/shaybee22/ada-voice-assistant.git
-   cd ada-voice-assistant
+    Copy all files from this project into that folder
+
+    Right-click PowerShell and choose "Run as Administrator"
+
+    Navigate to the folder using:
+
+cd C:\AdaAssistant
+
+Run the installer:
+
+python install.py
+
+After installation is complete, launch Ada’s Voice Assistant:
+
+    python voiceonly.py
+
+🧠 Notes:
+
+    Make sure Python 3.10+ is installed and added to PATH
+
+    The installer handles everything, including:
+
+        CPU/GPU-compatible torch
+
+        Whisper (openai-whisper)
+
+        RealtimeSTT
+
+        GUI libraries
+
+        Voice libraries
+
+
