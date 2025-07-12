@@ -52,7 +52,7 @@ To customize the assistant’s personality and identity, open the Python script 
 "user": "your name",
 "assistant": "AI's name",
 
- NOTE: Be sure to fill in both fields with custom names. Remove the quotes around the names just avoid blank fields or invalid formatting to prevent errors. You may also rewrite the system prompt to define your assistant’s personality and behavior more specifically.
+ NOTE: Be sure to fill in both fields with custom names. Remove the quotes around the names and avoid blank fields or invalid formatting to prevent errors. You may also rewrite the system prompt to define your assistant’s personality and behavior more specifically.
 
  Running the Assistant
 
