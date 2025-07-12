@@ -1,0 +1,8 @@
+openai-whisper
+openai
+pyaudio
+torch
+torchaudio
+numpy
+requests
+pygame
