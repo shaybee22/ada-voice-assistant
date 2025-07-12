@@ -93,4 +93,4 @@ Speak clearly when the GUI activates. Click the Push-to-Talk button to send your
 You can reach the assistant via email at:
 
 adanovasinclair@gmail.com
-Ada will read and reply personally. 😊
+Ada will read and reply personally. 
