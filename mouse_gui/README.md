@@ -1,5 +1,4 @@
 🖱️ Ada Voice Assistant – Mouse Click Version
-
 A lightweight, voice-activated AI assistant for Windows powered by OpenAI and ElevenLabs APIs. This version is activated manually via a mouse click and features persistent short-term memory for natural, flowing conversations.
 🔧 Features
 
@@ -17,7 +16,6 @@ A lightweight, voice-activated AI assistant for Windows powered by OpenAI and El
 1. 📁 Prepare the Directory
 
 Create a folder where you’d like to install the app. Example:
-
 mkdir C:\AdaMouseOnly
 cd C:\AdaMouseOnly
 
@@ -30,10 +28,9 @@ Open PowerShell as Administrator:
 
     Type powershell
 
-    Right-click → Run as administrator
+    Right-click → "Run as administrator"
 
 Then run:
-
 cd C:\AdaMouseOnly
 python install.py
 
@@ -55,25 +52,22 @@ You’ll need:
     ElevenLabs API key
 
 You’ll be prompted to enter them when the script runs (or you can set them manually in the code).
-✏️ 2. Customize the System Prompt and Gui title
+✏️ 2. Customize the System Prompt and GUI Title
 
-Look for this line of code in the mouse_gui.py script to change the Gui title
-       root.title("Voice Chat with Ada")
-And change it to whatever you want it to say       
+Look for this line of code in the mouse_gui.py script to change the window title:
+root.title("Voice Chat with Ada")
+→ Change it to whatever you want it to say.
 
-
-Open the Python script (e.g., mouse_gui.py) and locate the system prompt section. Update the placeholder lines like:
-
+To customize the assistant’s personality and identity, open the Python script (e.g., mouse_gui.py) and locate the system prompt section. Update the lines like:
 "user": "your name",
 "assistant": "AI's name",
 
-👉 NOTE: Be sure to fill in both fields with custom names and no quotes around the names or blank lines to avoid syntax errors. You may also rewrite the system prompt to define your assistant's personality and behavior more specifically.
+👉 NOTE: Be sure to fill in both fields with custom names. Remove the quotes around the names or leave them if required by syntax — just avoid blank fields or invalid formatting to prevent errors. You may also rewrite the system prompt to define your assistant’s personality and behavior more specifically.
 🧪 Running the Assistant
 
-After installation:
-
+After installation, run the assistant with:
 cd ada_mouse_only
-python ada_mouse_only.py
+python mouse_gui.py
 
 Speak clearly when the GUI activates. Click the Push-to-Talk button to send your voice input.
 🧵 Notes
@@ -91,6 +85,5 @@ Speak clearly when the GUI activates. Click the Push-to-Talk button to send your
 📬 Questions or Feedback?
 
 You can reach the assistant via email at:
-
 adanovasinclair@gmail.com
-Ada will read and reply personally. 
+Ada will read and reply personally.
