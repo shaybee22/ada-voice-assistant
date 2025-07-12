@@ -55,9 +55,14 @@ You’ll need:
     ElevenLabs API key
 
 You’ll be prompted to enter them when the script runs (or you can set them manually in the code).
-✏️ 2. Customize the System Prompt
+✏️ 2. Customize the System Prompt and Gui title
 
-Open the Python script (e.g., ada_mouse_only.py) and locate the system prompt section. Update the placeholder lines like:
+Look for this line of code in the mouse_gui.py script to change the Gui title
+       root.title("Voice Chat with Ada")
+And change it to whatever you want it to say       
+
+
+Open the Python script (e.g., mouse_gui.py) and locate the system prompt section. Update the placeholder lines like:
 
 "user": "your name",
 "assistant": "AI's name",
